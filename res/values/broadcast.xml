@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="broadcast">de.tudarmstadt.informatik.hostage.BROADCAST</string>    
+    <string name="broadcast_connectivity">de.tudarmstadt.informatik.hostage.BROADCAST.CONNECTIVITY_CHANGE</string>
+    <string name="broadcast_started">de.tudarmstadt.informatik.hostage.BROADCAST.STARTED</string>
+    <string name="broadcast_stopped">de.tudarmstadt.informatik.hostage.BROADCAST.STOPPED</string>
+
+    
+</resources>

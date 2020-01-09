@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="google_maps_api_key_debug">AIzaSyCqh4bb4aMzvDcpDfiqHyXoAWFTQ6iNxe8</string>
+	<string name="google_maps_api_key_release">AIzaSyCxYbHYCoA0Mc_uZ_RwxqfJFZC1HBzzTR8</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="protocols">
+        <item>ECHO</item>
+        <item>FTP</item>
+        <item>GHOST</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>MySQL</item>
+        <item>SIP</item>
+        <item>SMB</item>
+        <item>SSH</item>
+        <item>TELNET</item>
+    </string-array>
+
+    <string-array name="protocols_description">
+        <item>Protokoll zum testen und messen der round-trip time</item>
+        <item>Protokoll zum Datentransfer zwischen Client/Server und Server/Server</item>
+        <item>Protokoll zum Spiegeln von eingehenden Verbindungen. Antwort erfolgt auf dem selben Port wie die eingegangene Verbindung</item>
+        <item>Datenübertragungsprotokoll für Webseiten</item>
+        <item>Genau wie HTTP mit zusätzlicher Sicherung der Verbindung mittels SSL/TLS</item>
+        <item>Weit verbreitetes relationelles Datenbank Management System</item>
+        <item>Dieses Protokoll wird für VoIP(Voice over IP) Dienste genutzt</item>
+        <item>Protokoll um Daten, Drucker und mehr in einem Netzwerk zu teilen</item>
+        <item>Netzwerkprotokoll das Datenzugriff, Datentransfer und Datenmanagement Funktionen über einen vertrauenswürdigen Datenstrom bereitstellt</item>
+        <item>Netzwerkprotokoll das genutzt wird um eine bidirektionale interaktive Kommunikation in einem virtuellen Terminal zu ermöglichen</item>
+    </string-array>
+</resources>
