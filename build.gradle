@@ -1,9 +1,13 @@
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.android.tools.build:gradle:3.3.0'
     }
 }
 apply plugin: 'com.android.application'
@@ -12,6 +16,10 @@ repositories {
     mavenCentral()
     maven {
         url 'https://oss.sonatype.org/content/groups/public'
+    }
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
     }
 }
 
@@ -23,7 +31,7 @@ dependencies {
     //compile fileTree(dir: 'libs', include: '*.jar')
     compile files('libs/swipelistview-1.0.jar')
     compile files('libs/sshlib-v1.1.jar')
-    compile files('libs/chart-library2.2.jar')
+   // compile files('libs/chart-library2.2.jar')
     //compile files('libs/jlan-5.jar')
     compile files('libs/alfresco-jlan.jar')
     compile files('libs/cryptix-jce-provider.jar')
@@ -52,7 +60,7 @@ android {
         }
 
         // Move the tests to tests/java, tests/res, etc...
-        instrumentTest.setRoot('tests')
+        androidTest.setRoot('tests')
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
